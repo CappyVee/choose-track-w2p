@@ -53,6 +53,7 @@ hr {
 
 button {
   margin-top: 5%;
+  margin-bottom: 5%;
   background-color: lightblue;
 }
 
@@ -63,4 +64,9 @@ button:hover {
 #header-img {
   float: right;
   width: 55%;
+}
+
+a img {
+  float: left;
+  width: 25%;
 }
