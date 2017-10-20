@@ -11,26 +11,32 @@ body {
 
 #track-csharp {
   display: none;
+  height: 200px;
 }
 
 #track-java {
   display: none;
+  height: 200px;
 }
 
 #track-php {
   display: none;
+  height: 200px;
 }
 
 #track-ruby {
   display: none;
+  height: 200px;
 }
 
 #track-css {
   display: none;
+  height: 200px;
 }
 
 #track-react {
   display: none;
+  height: 200px;
 }
 
 img {
