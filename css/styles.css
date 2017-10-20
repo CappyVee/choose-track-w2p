@@ -2,18 +2,26 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-#track1 {
+#track-csharp {
   display: none;
 }
 
-#track2 {
+#track-java {
   display: none;
 }
 
-#track3 {
+#track-php {
   display: none;
 }
 
-#track4 {
+#track-ruby {
+  display: none;
+}
+
+#track-css {
+  display: none;
+}
+
+#track-hunter {
   display: none;
 }
