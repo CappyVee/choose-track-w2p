@@ -1,3 +1,19 @@
 body {
   font-family: 'Merriweather', serif;
 }
+
+#track1 {
+  display: none;
+}
+
+#track2 {
+  display: none;
+}
+
+#track3 {
+  display: none;
+}
+
+#track4 {
+  display: none;
+}
