@@ -14,86 +14,121 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron header">
-        <h1>Title</h1>
-        <img src="" alt="">
-        <p>placeholder</p>
+      <div class="jumbotron">
+        <h1 class="header">Choose Your Track!</h1>
+        <p class="header emphasis">this page will help you choose your future.</p>
       </div>
       <br>
-      <form id="trackform">
-          <select id="question1" name="firstquestion">
-              <option value="1">MAC</option>
-              <option value="2">PC</option>
-          </select>
+      <hr>
 
-          <select id="question2" name="secondquestion">
-              <option value="1">Mobile</option>
-              <option value="2">Desktop</option>
-          </select>
+      <div class="row">
+        <div class="col-lg-4">
 
-          <select id="question3" name="thirdquestion">
-              <option value="1">Startup</option>
-              <option value="2">Large Company</option>
-          </select>
 
-          <select id="question4" name="fourthquestion">
-              <option value="1">Front End</option>
-              <option value="2">Back End</option>
-          </select>
 
-          <select id="question5" name="fifthquestion">
-              <option value="1">Newer</option>
-              <option value="2">Established</option>
-          </select>
+          <form id="trackform">
+              <p>Mac or PC?</p>
+              <select id="question1" name="firstquestion">
+                  <option value="1">MAC</option>
+                  <option value="2">PC</option>
+              </select>
 
-          <select id="question6" name="sixquestion">
-              <option value="1">Dogs</option>
-              <option value="2">Cats</option>
-          </select>
+              <br>
 
-          <button type="submit" name="button" class="btn btn-success">Show Tracks!</button>
-      </form>
+              <p>Mobile or Desktop?</p>
+              <select id="question2" name="secondquestion">
+                  <option value="1">Mobile</option>
+                  <option value="2">Desktop</option>
+              </select>
+
+              <br>
+
+              <p>Startup or Large Company?</p>
+              <select id="question3" name="thirdquestion">
+                  <option value="1">Startup</option>
+                  <option value="2">Large Company</option>
+              </select>
+
+              <br>
+
+              <p>Front or Back End?</p>
+              <select id="question4" name="fourthquestion">
+                  <option value="1">Front End</option>
+                  <option value="2">Back End</option>
+              </select>
+
+              <br>
+
+              <p>Newer or Established Language?</p>
+              <select id="question5" name="fifthquestion">
+                  <option value="1">Newer</option>
+                  <option value="2">Established</option>
+              </select>
+
+              <br>
+
+              <p>Dogs or Cats?</p>
+              <select id="question6" name="sixquestion">
+                  <option value="1">Dogs</option>
+                  <option value="2">Cats</option>
+              </select>
+
+              <br>
+
+              <button type="submit" name="button" class="btn">Show Tracks!</button>
+          </form>
+        </div>
+
+        <div class="col-lg-8">
+          <img src="img/programming.jpg" alt="programming" id="header-img">
+          <h3>Important Info</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+      </div>
+
+      <hr>
 
 
       <div class="jumbotron" id="track-csharp">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>C#</h1>
-        <p>text</p>
-        <a href="#"></a>
+        <p>C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2006). C# is one of the programming languages designed for the Common Language Infrastructure.</p>
+        <a href="https://www.epicodus.com/c-sharp/"></a>
       </div>
 
       <div class="jumbotron" id="track-java">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>Java</h1>
-        <p>text</p>
-        <a href="#"></a>
+        <p>Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[15] and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),meaning that compiled Java code can run on all platforms that support Java without the need for recompilation</p>
+        <a href="#">https://www.epicodus.com/java/</a>
       </div>
 
       <div class="jumbotron" id="track-php">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>PHP</h1>
-        <p>text</p>
-        <a href="#"></a>
+        <p>PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. PHP code may be embedded into HTML or HTML5 markup, or it can be used in combination with various web template systems, web content management systems and web frameworks.</p>
+        <a href="https://www.epicodus.com/php/"></a>
       </div>
 
       <div class="jumbotron" id="track-ruby">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>Ruby</h1>
-        <p>text</p>
-        <a href="#"></a>
+        <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.</p>
+        <a href="#">https://www.epicodus.com/ruby/</a>
       </div>
 
       <div class="jumbotron" id="track-css">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>CSS</h1>
-        <p>text</p>
-        <a href="#"></a>
+        <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        <a href="https://www.epicodus.com/css/"></a>
       </div>
 
       <div class="jumbotron" id="track-react">
-        <img src="" alt="">
+        <img src="img/epicodus.png" alt="epicodus">
         <h1>REACT</h1>
-        <p>text</p>
+        <p>React allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in MVC, such as AngularJS.</p>
         <a href="https://www.epicodus.com/react/">Epicodus</a>
       </div>
 
