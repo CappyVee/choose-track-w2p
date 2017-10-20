@@ -9,18 +9,48 @@ $(document).ready(function(){
     var q5 = parseInt($("select#question5").val());
     var q6 = parseInt($("select#question6").val());
     //logic
-    if (q1 === 2 && q3 === 2 && q5 === 2) {
+    if (q1 === 2 && q2 === 2 && q3 === 2) {
+      $("#track-css").hide();
+      $("#track-react").hide();
+      $("#track-php").hide();
+      $("#track-java").hide();
+      $("#track-ruby").hide();
       $("#track-csharp").show();
-    } else if (q1 === 2 && q2 === 1 && q4 === 2) {
+    } else if (q1 === 2 && q2 === 1) {
+      $("#track-css").hide();
+      $("#track-react").hide();
+      $("#track-php").hide();
+      $("#track-csharp").hide();
+      $("#track-ruby").hide();
       $("#track-java").show();
-    } else if (q2 === 2 && q4 === 2 && q5 === 2) {
+    } else if (q4 === 2 && q5 === 2) {
+      $("#track-css").hide();
+      $("#track-react").hide();
+      $("#track-csharp").hide();
+      $("#track-java").hide();
+      $("#track-ruby").hide();
       $("#track-php").show();
-    } else if (q3 === 1 && q4 === 1 && q5 === 2) {
+    } else if (q3 === 1 && q4 === 1) {
+      $("#track-css").hide();
+      $("#track-react").hide();
+      $("#track-php").hide();
+      $("#track-csharp").hide();
+      $("#track-java").hide();
       $("#track-ruby").show();
-    } else if (q2 === 2 && q4 === 1 && q5 === 2) {
+    } else if (q4 === 1 && q5 === 2) {
+      $("#track-react").hide();
+      $("#track-php").hide();
+      $("#track-csharp").hide();
+      $("#track-java").hide();
+      $("#track-ruby").hide();
       $("#track-css").show();
     } else {
-      $("#track-hunter").show();
+      $("#track-css").hide();
+      $("#track-php").hide();
+      $("#track-csharp").hide();
+      $("#track-java").hide();
+      $("#track-ruby").hide();
+      $("#track-react").show();
     }
   });//submit function
 });//doc ready function
