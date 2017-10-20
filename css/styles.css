@@ -70,3 +70,8 @@ a img {
   float: left;
   width: 25%;
 }
+
+form p {
+  margin: 10px 0px 0px 0px;
+  font-weight: bold;
+}
